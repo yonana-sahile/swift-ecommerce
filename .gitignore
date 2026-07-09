@@ -1,0 +1,59 @@
+# ============================
+# BACKEND (Python / Django)
+# ============================
+swift_backend/swift/   # <--- EXPLICIT PATH IGNORES YOUR VIRTUAL ENV
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.sqlite3
+db.sqlite3
+staticfiles/
+media/
+.Python
+
+# ============================
+# ENVIRONMENT VARIABLES (SECRETS!)
+# ============================
+.env
+.env.local
+.env.production
+.env.development
+
+# ============================
+# FRONTEND (Node / React / Vite)
+# ============================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# ============================
+# OS / EDITOR FILES
+# ============================
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db
